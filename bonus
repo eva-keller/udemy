@@ -1,0 +1,9 @@
+filenames = ["1.Raw Data.txt", "2.Reports.txt", "3.Presentations.txt"]
+
+for filename in filenames:
+    filename = filename.replace('.', '-', 1)   #1=first occurance
+    print(filename)
+
+#tuple - filenames = ("1.Raw Data.txt", "2.Reports.txt", "3.Presentations.txt"), instead of
+#list, you can use a tuple. Tuples are immutable, meaning you cannot change their contents
+#  after creation. Instead of [], you use parentheses () to define a tuple.
