@@ -2,3 +2,6 @@ clean
 sweep
 cook
 kiss
+eat
+add
+shower
